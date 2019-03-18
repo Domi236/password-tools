@@ -2,7 +2,7 @@
 to make the use of passwords easier
 
 navigate templates/PasswordEncryptionSoftware.html play with my "Password Encryption Software".  
-!!!you need to type in input field 'Login' this password to use it:"brfjx".
+!!!you need to type in input field 'Login' this password to use it:"*****".
 
 navigate templates/passwordGenerator.html to generate your own strong Password.
 
