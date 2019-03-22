@@ -1,0 +1,19 @@
+Password generator:
+
+in objecte auslagern
+
+Password generator testet automatisch ob es ein sicheres Passwort ist zb es dürfen nich mehr als ein zeichen 
+aus dem selben array hintereinander stehen sonst wird das passwort neu generiert.
+
+brwoser spuckt dann aus wie sicher das passwort ist.
+
+///////////////////////////
+Verschlüsselungssoftware:
+
+per knopfdruck soll möglich sein ein neues Passwort hinzuzufügen oder zu löschen und die länge der code änderung angebbar sein.
+
+
+///////////////////////////
+Passwort Manager schreiben:
+
+passwörter sollen gespeichert werden können und gelöscht werden mit login.
