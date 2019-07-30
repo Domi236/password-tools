@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<h1>Text Verschlüsselungs Generator</h1>
+
+
+<span id="yourPassword">Login: </span><input id="login" type="password" /><br /><br />
+
+<input id="input" type="text" />
+<button id="showHideBtn">click to hide your text</button>
+<p id="output"></p>
+
+
+<!--should be changeable by chnaging the password-->
+
+
+
+<script type="text/javascript">
+    var newTxt = "";
+    var newTxt2 = "";
+    var oldText = "";
+    var oldText2 = "";
+
+    var uppercaseKeyArray = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+    var lowercaseKeyArray = ['a','b','c','d','e','f','g','h','i','j','k','l','k','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+    var numbersKeyArray = ['0','1','2','3','4','5','6','7','8','9'];
+    var specialCharacterArray = ['!','§','$','%','&','/','(',')','=','?','*','#','+','~','{','}','ß','-'];
+
+    var password = "";
+    var input = "";
+    var output = "";
+    var number = 0;
+
+    var login = document.getElementById("login");
+    var input = document.getElementById("input");
+    var output = document.getElementById("output");
+    var btn = document.getElementById("showHideBtn");
+
+
+    function key() {
+        for (var i = 0; i < login.value.length; i++) {
+          var h2 = divs[i].getElementsByTagName("h2")[0];
+          var p = divs[i].getElementsByTagName("p")[0];
+          var txtValueNames = h2.textContent;
+          var txtValueTags = p.textContent; //return the text from the p tag
+          if (txtValueNames.toUpperCase().indexOf(filter) > -1 || txtValueTags.toUpperCase().indexOf(filter) > -1) {
+            cards[i].style.display = ""; 
+          } else {                       
+            cards[i].style.display = "none";                                              
+          }                                                                               
+        }
+      }
+
+
+
+
+
+
+</script>
+</body>
+</html>
